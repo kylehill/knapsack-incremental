@@ -35,7 +35,8 @@ export const initialRound = {
     11
   ],
   played: [],
-  discarded: []
+  discarded: [],
+  purchases: []
 };
 
 export const previousRound = {
@@ -46,7 +47,8 @@ export const previousRound = {
   hand: [7, 6, 3],
   stack: [2, 5, 4, 1, 8],
   played: [],
-  discarded: []
+  discarded: [],
+  purchases: []
 };
 
 export const offsetRound = {
@@ -57,7 +59,8 @@ export const offsetRound = {
   hand: [5, 2, 4],
   stack: [6, 8, 3, 7, 1],
   played: [],
-  discarded: []
+  discarded: [],
+  purchases: []
 };
 
 export const upgradedRound = {
@@ -68,5 +71,6 @@ export const upgradedRound = {
   hand: [7, 6, 3, 2, 5],
   stack: [4, 1, 8],
   played: [],
-  discarded: []
+  discarded: [],
+  purchases: []
 };

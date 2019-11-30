@@ -41,8 +41,18 @@ export const newGame = {
       11
     ],
     played: [],
-    discarded: []
+    discarded: [],
+    purchases: []
   },
   pastRounds: [],
-  upgrades: {}
+  upgrades: {
+    maxDiscards: {
+      level: 0,
+      cost: 100
+    },
+    handSize: {
+      level: 0,
+      cost: 25
+    }
+  }
 };

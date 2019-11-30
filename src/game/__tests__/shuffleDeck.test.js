@@ -28,7 +28,8 @@ describe("game/shuffleDeck", () => {
       {
         action: "handSize",
         value: 4,
-        offset: 101
+        offset: 101,
+        cost: 25
       }
     ];
     expect(shuffleDeck(lastRound)).toEqual([1, 5, 2, 3, 1, 8]);

@@ -38,7 +38,8 @@ describe("game/newRound", () => {
       {
         action: "comboUnlock",
         value: 1,
-        offset: 1001
+        offset: 1001,
+        cost: 100
       }
     ];
     gameStructure.currentRound = currentRound;

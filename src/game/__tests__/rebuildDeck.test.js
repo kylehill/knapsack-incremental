@@ -52,12 +52,14 @@ describe("game/rebuildDeck", () => {
       {
         action: "handSize",
         value: 4,
-        offset: 101
+        offset: 101,
+        cost: 25
       },
       {
         action: "comboUnlock",
         value: 1,
-        offset: 1001
+        offset: 1001,
+        cost: 100
       }
     ];
 
@@ -71,7 +73,8 @@ describe("game/rebuildDeck", () => {
       {
         action: "trash",
         value: 2,
-        offset: 2002
+        offset: 2002,
+        cost: 200
       }
     ];
 
@@ -85,17 +88,20 @@ describe("game/rebuildDeck", () => {
       {
         action: "trash",
         value: 2,
-        offset: 2002
+        offset: 2002,
+        cost: 200
       },
       {
         action: "trash",
         value: 3,
-        offset: 2003
+        offset: 2003,
+        cost: 300
       },
       {
         action: "trash",
         value: 3,
-        offset: 2003
+        offset: 2003,
+        cost: 450
       }
     ];
 
@@ -107,8 +113,10 @@ describe("game/rebuildDeck", () => {
     lastRound.purchases = [
       {
         action: "add",
+        pack: "small",
         value: 5,
-        offset: 3005
+        offset: 3005,
+        cost: 500
       }
     ];
 
@@ -121,7 +129,8 @@ describe("game/rebuildDeck", () => {
       {
         action: "trash",
         value: 5,
-        offset: 2005
+        offset: 2005,
+        cost: 200
       }
     ];
 

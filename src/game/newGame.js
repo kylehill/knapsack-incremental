@@ -9,7 +9,10 @@ const newGame = () => {
     combos: {},
     currentRound: null,
     pastRounds: [],
-    upgrades: {}
+    upgrades: {
+      handSize: { level: 0, cost: 25 },
+      maxDiscards: { level: 0, cost: 100 }
+    }
   };
 
   game.currentRound = newRound(game);

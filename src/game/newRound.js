@@ -9,6 +9,7 @@ const newRound = gameStructure => {
     stack: shuffledDeck.slice(gameStructure.handSize),
     discarded: [],
     played: [],
+    purchases: [],
     discardsLeft: gameStructure.maxDiscards,
     remaining: gameStructure.target,
     coins: 0
